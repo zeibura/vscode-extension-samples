@@ -1,14 +1,14 @@
 {
-	"name": "base-sample",
-	"displayName": "base-sample",
-	"description": "Base sample for other samples at Microsoft/vscode-extension-samples",
+	"name": "walkthrough-sandbox",
+	"displayName": "walkthrough-sandbox",
+	"description": "walkthrough-sandbox",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
+	"publisher": "zeibura",
 	"private": true,
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-extension-samples"
+		"url": "https://github.com/zeibura/vscode-extension-samples"
 	},
 	"engines": {
 		"vscode": "^1.32.0"
@@ -41,5 +41,28 @@
 		"@typescript-eslint/parser": "^5.30.0",
 		"eslint": "^8.13.0",
 		"typescript": "^4.7.2"
-	}
-}
+	},
+		  "walkthroughs": [
+			{
+			  "id": "sample",
+			  "title": "Sample",
+			  "description": "A sample walkthrough",
+			  "steps": [
+				{
+				  "id": "runcommand",
+				  "title": "Run Command",
+				  "description": "This step will run a command and check off once it has been run.\n[Run Command](command:getting-started-sample.runCommand)",
+				  "media": { "image": "media/image.png", "altText": "Empty image" },
+				  "completionEvents": ["onCommand:getting-started-sample.runCommand"]
+				},
+				{
+				  "id": "changesetting",
+				  "title": "Change Setting",
+				  "description": "This step will change a setting and check off when the setting has changed\n[Change Setting](command:getting-started-sample.changeSetting)",
+				  "media": { "markdown": "media/markdown.md" },
+				  "completionEvents": ["onSettingChanged:getting-started-sample.sampleSetting"]
+				}
+			  ]
+			}
+		  ]
+		}
