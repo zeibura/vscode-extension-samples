@@ -45,7 +45,7 @@
 					{
 						"id": "openlaunch",
 						"title": "Open Debug Configuration",
-						"description": "This step will open a launch.json file in your workspace. Madting. \n[Open launch.json file](command:workbench.action.debug.configure)",
+						"description": "This step will open the launch.json file in your workspace. You use launch.json to configure your debugging session. \nIf no launch.json file exists in your workspace, two prompts will display at the top of the screen. Select your workspace name from the first drop down list, and then select either Debugger for Mainframe: INTERTEST™ FOR CICS or Debugger for Mainframe: INTERTEST™ BATCH from the list of possible configurations. \n[Open launch.json file](command:workbench.action.debug.configure)",
 						"media": {
 							"image": "media/image.png",
 							"altText": "Empty image"
