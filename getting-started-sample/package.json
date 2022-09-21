@@ -43,15 +43,15 @@
 				"description": "A sample walkthrough",
 				"steps": [
 					{
-						"id": "runcommand",
-						"title": "Run Command",
-						"description": "This step will run a command and check off once it has been run.\n[Run Command](command:getting-started-sample.runCommand)",
+						"id": "openlaunch",
+						"title": "Open Debug Configuration",
+						"description": "This step will open a launch.json file in your workspace. Madting. \n[Open launch.json file](command:workbench.action.debug.configure)",
 						"media": {
 							"image": "media/image.png",
 							"altText": "Empty image"
 						},
 						"completionEvents": [
-							"onCommand:getting-started-sample.runCommand"
+							"onCommand:workbench.action.debug.configure"
 						]
 					},
 					{

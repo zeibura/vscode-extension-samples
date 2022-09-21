@@ -22,7 +22,7 @@ export function activate(context: vscode.ExtensionContext): void {
 	}));
 
 	context.subscriptions.push(vscode.commands.registerCommand('getting-started-sample.sayHello', () => {
-		vscode.window.showInformationMessage('Hello');
+		vscode.window.showInformationMessage('Long live whistle bass');
 	}));
 
 	context.subscriptions.push(vscode.commands.registerCommand('getting-started-sample.viewSources', () => {
