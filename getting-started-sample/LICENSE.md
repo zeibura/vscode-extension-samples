@@ -1,3 +1,5 @@
 # LICENSE
 
-THERE IS NO LICENSE YOU LEMON THIS IS JUST A SANDBOX. THIS FILE EXISTS SO THAT THE VSCE PACKAGE COMMAND LEAVES ME THE HELL ALONE
+there is no license you lemon
+this is just a sandbox
+this file exists so that thr `vcse package` command leaves me the hell alone
